@@ -10,7 +10,8 @@ The trained model weights are in [checkpoint.pth](checkpoint.pth).
 ## Project Details
 
 The project involves creating an agent that learns to autonomously navigate in the 
-Banana Unity environment, while collecting the most reward.
+Banana Unity environment, which is a large square world, in which the agent collects 
+bananas, and gets rewarded as described a little later below.
 
 Unit Environments contain **_brains_** which are responsible for deciding the actions 
 of their associated agents. Here we check for the first brain available, 
