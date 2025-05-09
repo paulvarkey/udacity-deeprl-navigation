@@ -1,11 +1,33 @@
 # Navigation : Udacity DeepRL Nanondegree project
 
 This codebase contains a solution to the Navigation project 
-from Udacity's DeepRL Nanodegree.
+from Udacity's DeepRL Nanodegree. The notebook [(Navigation.ipynb)](Navigation.ipynb) 
+demonstrates the full solution end-to-end : 
+training, checkpointing of weights, followed by watching the trained agent in action.
+
+The trained model weights are in [checkpoint.pth](checkpoint.pth).
 
 ## Project Details
 
-## Setup
+The project involves creating an agent that learns to autonomously navigate in the 
+Banana Unity environment, while collecting the most reward.
+
+Unit Environments contain **_brains_** which are responsible for deciding the actions 
+of their associated agents. Here we check for the first brain available, 
+and set it as the default brain we will be controlling from Python.
+
+The simulation contains a single agent that navigates a large environment. 
+At each time step, it has four actions at its disposal:
+- `0` - walk forward 
+- `1` - walk backward
+- `2` - turn left
+- `3` - turn right
+
+The state space has `37` dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  A reward of `+1` is provided for collecting a yellow banana, and a reward of `-1` is provided for collecting a blue banana.
+
+A successful agent is defined as one which is able to gain an average reward (over 100 episodes) of 13 or more.
+
+## Getting Started
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -60,3 +82,9 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
 ## Instructions
+
+1. Open up [Navigation.ipynb](Navigation.ipynb) and ensure to change the kernel in the drop-down menu to the one build above (e.g. "drlnd")
+
+2. Optionally, perform training with hyperparameters of your choice
+
+3. Optionally, load the trained checkpoint and visualize the agent in action
