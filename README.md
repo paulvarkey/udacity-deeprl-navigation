@@ -91,7 +91,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ## Instructions
 
-1. Open up [Navigation.ipynb](Navigation.ipynb) and ensure to change the kernel in the drop-down menu to the one build above (e.g. "drlnd"). Run all the cells in the **Imports and definitions** section
+1. Open up [Navigation.ipynb](Navigation.ipynb) and ensure to change the kernel in the drop-down menu to the one build above (e.g. "drlnd"). Change `banana_app_file_name` to a value appropriate to the one on your environment. Run all the cells in the **Imports and definitions** section.
 
 2. Optionally, perform training with hyperparameters of your choice (uncomment, edit parameters, if desired, and run!)
 

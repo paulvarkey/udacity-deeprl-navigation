@@ -16,9 +16,15 @@ The agent is trained over many episodes, until we see the desired mean score ove
 
 The various hyperparameters are here selected as the defaults provided earlier in the course. They were found to work very well!
 
+Evaluation is done across 10 episodes.
+
 ### Plot of Rewards
 
 The following plot shows the training loss curves for the trained agent, whose weights are saved in [checkpoint.pth](checkpoint.pth).
+
+For this checkpoint, we selected `16.5` as the 100-episode average score required before terminating training. This was achieved in 1046 episodes.
+
+The minimum required score of `13` was achieved in less than 600 episodes.
 
 ![alt text](training_plot.png)
 
