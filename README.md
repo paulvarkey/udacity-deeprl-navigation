@@ -1,11 +1,18 @@
 # Navigation : Udacity DeepRL Nanondegree project
 
 This codebase contains a solution to the Navigation project 
-from Udacity's DeepRL Nanodegree. The notebook [(Navigation.ipynb)](Navigation.ipynb) 
+from Udacity's DeepRL Nanodegree. 
+
+The project report is found in [Report.md](Report.md).
+
+The notebook [Navigation.ipynb](Navigation.ipynb) 
 demonstrates the full solution end-to-end : 
 training, checkpointing of weights, followed by watching the trained agent in action.
 
 The trained model weights are in [checkpoint.pth](checkpoint.pth).
+
+The rest of this README provides details on the project, and setup, training 
+and evaluation instructions.
 
 ## Project Details
 
@@ -84,8 +91,8 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ## Instructions
 
-1. Open up [Navigation.ipynb](Navigation.ipynb) and ensure to change the kernel in the drop-down menu to the one build above (e.g. "drlnd")
+1. Open up [Navigation.ipynb](Navigation.ipynb) and ensure to change the kernel in the drop-down menu to the one build above (e.g. "drlnd"). Run all the cells in the **Imports and definitions** section
 
-2. Optionally, perform training with hyperparameters of your choice
+2. Optionally, perform training with hyperparameters of your choice (uncomment, edit parameters, if desired, and run!)
 
-3. Optionally, load the trained checkpoint and visualize the agent in action
+3. Optionally, load the trained checkpoint ([checkpoint.pth](checkpoint.pth)) and visualize the agent in action (uncomment and run!)

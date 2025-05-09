@@ -28,4 +28,4 @@ The following plot shows the training loss curves for the trained agent, whose w
 More training cycles would allow one to find hyperparameters that are better with respect to training efficiency and/or overall average-reward performance.
 
 #### Algorithmic improvements
-As suggested in the course, the following more advanced variants can be tred : double DQN, a dueling DQN, and/or prioritized experience replay!
+As suggested in the course, the following more advanced variants can be tried : double DQN, a dueling DQN, and/or prioritized experience replay!
