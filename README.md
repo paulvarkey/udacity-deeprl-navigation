@@ -17,6 +17,12 @@ The trained model weights are in [checkpoint.pth](checkpoint.pth).
 The rest of this README provides details on the project, and setup, training 
 and evaluation instructions.
 
+## Attribution
+
+The model ([model.py](model.py)) and the DQN agent ([dqn_agent.py](dqn_agent.py)), as well as the `python` sub-directory, are all copied directly and as-is from the earlier provided solutions in the course, in the section on DQN.
+
+The DQN training algorithm is also adapted from the prior provided examples, with some refactoring and modifications that were necessary to get it to work in this scenario (where the environment is from Unity and not the Gym environment from OpenAI.)
+
 ## Project Details
 
 The project involves creating an agent that learns to autonomously navigate in the 
