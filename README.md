@@ -3,6 +3,9 @@
 This codebase contains a solution to the Navigation project 
 from Udacity's DeepRL Nanodegree. 
 
+One may watch the [accompanying Youtube video](https://youtu.be/rwPu4LlBlqw) first to see
+the highlights during training and evaluation.
+
 The project report is found in [Report.md](Report.md).
 
 The notebook [Navigation.ipynb](Navigation.ipynb) 
