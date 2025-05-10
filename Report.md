@@ -1,6 +1,8 @@
 ## Navigation : Udacity DeepRL Nanondegree project report
 ___
 
+This [accompanying Youtube video](https://youtu.be/rwPu4LlBlqw) walks through some highlights of training and evaluation.
+
 ### Learning Algorithm
 
 The learning algorithm used in this project is the basic Deep Q-Networks (DQN) algorithm provided
